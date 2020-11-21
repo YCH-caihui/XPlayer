@@ -1,2 +1,0 @@
-# XPlayer
-Custom simple player
