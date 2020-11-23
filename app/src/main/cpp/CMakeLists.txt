@@ -8,7 +8,9 @@ cmake_minimum_required(VERSION 3.10.2)
 # Declares and names the project.
 
 project("xplayer")
-include_directories(native-lib PRIVETE include)
+#include_directories(native-lib PRIVETE include)
+include_directories(native-lib PRIVETE ffmpeg)
+
 
 
 # Creates and names a library, sets it as either STATIC
